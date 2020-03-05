@@ -1,0 +1,87 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.7.1",
+    "applicationType": "monolith",
+    "baseName": "client",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "vue",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "sql",
+    "prodDatabaseType": "sql",
+    "creationTimestamp": 1583413560344,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.6.0"
+      }
+    ],
+    "enableTranslation": true,
+    "nativeLanguage": "en",
+    "languages": [
+      "en",
+      "al",
+      "ar-ly",
+      "hy",
+      "by",
+      "bn",
+      "ca",
+      "zh-cn",
+      "zh-tw",
+      "cs",
+      "da",
+      "nl",
+      "et",
+      "fa",
+      "fi",
+      "fr",
+      "gl",
+      "de",
+      "el",
+      "hi",
+      "hu",
+      "in",
+      "it",
+      "ja",
+      "ko",
+      "mr",
+      "my",
+      "pl",
+      "pt-br",
+      "pt-pt",
+      "ro",
+      "ru",
+      "sk",
+      "sr",
+      "es",
+      "sv",
+      "tr",
+      "ta",
+      "te",
+      "th",
+      "ua",
+      "uz-Cyrl-uz",
+      "uz-Latn-uz",
+      "vi"
+    ],
+    "blueprints": [
+      {
+        "name": "generator-jhipster-vuejs",
+        "version": "1.6.0"
+      }
+    ],
+    "skipServer": true,
+    "skipUserManagement": true
+  }
+}
