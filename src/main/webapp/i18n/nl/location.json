@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Maak een nieuwe Location",
+        "createOrEditLabel": "Maak of wijzig een Location",
+        "notFound": "No Locations found"
+      },
+      "created": "A new Location is created with identifier {{ param }}",
+      "updated": "A Location is updated with identifier {{ param }}",
+      "deleted": "A Location is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Location {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

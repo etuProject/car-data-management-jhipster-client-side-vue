@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Стварыць новы Location",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Новы Location створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Location абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Location выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

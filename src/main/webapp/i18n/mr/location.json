@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "नवीन Location तयार करा",
+        "createOrEditLabel": "Location तयार किंवा संपादित करा",
+        "notFound": "No Locations found"
+      },
+      "created": "Location [identifier: {{ param }}] तयार आहे",
+      "updated": "Location [identifier: {{ param }}] सुधारित केले आहे",
+      "deleted": "Location [identifier: {{ param }}] हटविले आहे",
+      "delete": {
+        "question": "Location [id: {{ id }}] काढून टाकण्याबाबत पुष्टी?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

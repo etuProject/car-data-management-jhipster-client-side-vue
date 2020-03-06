@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Maak een nieuwe Trip",
+        "createOrEditLabel": "Maak of wijzig een Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "A new Trip is created with identifier {{ param }}",
+      "updated": "A Trip is updated with identifier {{ param }}",
+      "deleted": "A Trip is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Bent u zeker dat u Trip {{ id }} wilt verwijderen?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

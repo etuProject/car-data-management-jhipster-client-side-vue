@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Criar novo Location",
+        "createOrEditLabel": "Criar ou editar Location",
+        "notFound": "Nenhum Location encontrado"
+      },
+      "created": "Um novo Location foi criado com o identificador {{ param }}",
+      "updated": "Um Location foi atualizado com o identificador {{ param }}",
+      "deleted": "Um Location foi excluído com o identificador {{ param }}",
+      "delete": {
+        "question": "Tem certeza de que deseja excluir Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

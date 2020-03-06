@@ -1,0 +1,17 @@
+entity Trip {
+	startTime Instant,
+	endTime Instant
+}
+
+entity Location {
+	heading Double,
+    latitude Double,
+    longitude Double,
+    speed Double
+}
+
+relationship OneToMany {
+	Trip{location} to Location
+}
+
+paginate Trip, Location with pagination

@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Creeare o nouă entitate Trip",
+        "createOrEditLabel": "Creeare sau editare Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "A fost creată o nouă entitate Trip cu identificatorul {{ param }}",
+      "updated": "Trip cu identificatorul {{ param }} a fost actualizată",
+      "deleted": "Trip cu identificatorul {{ param }} a fost ștearsă",
+      "delete": {
+        "question": "Sunteți sigur că doriți să ștergeți Trip {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

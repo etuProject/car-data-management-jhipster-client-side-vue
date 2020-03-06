@@ -16,6 +16,18 @@ const JhiLogsComponent = () => import('../admin/logs/logs.vue');
 const JhiAuditsComponent = () => import('../admin/audits/audits.vue');
 const JhiMetricsComponent = () => import('../admin/metrics/metrics.vue');
 /* tslint:disable */
+// prettier-ignore
+const Trip = () => import('../entities/trip/trip.vue');
+// prettier-ignore
+const TripUpdate = () => import('../entities/trip/trip-update.vue');
+// prettier-ignore
+const TripDetails = () => import('../entities/trip/trip-details.vue');
+// prettier-ignore
+const Location = () => import('../entities/location/location.vue');
+// prettier-ignore
+const LocationUpdate = () => import('../entities/location/location-update.vue');
+// prettier-ignore
+const LocationDetails = () => import('../entities/location/location-details.vue');
 // jhipster-needle-add-entity-to-router-import - JHipster will import entities to the router here
 
 Vue.use(Router);
@@ -76,6 +88,56 @@ export default new Router({
       name: 'JhiConfigurationComponent',
       component: JhiConfigurationComponent,
       meta: { authorities: [Authority.ADMIN] }
+    }
+    ,
+    {
+      path: '/trip',
+      name: 'Trip',
+      component: Trip,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/trip/new',
+      name: 'TripCreate',
+      component: TripUpdate,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/trip/:tripId/edit',
+      name: 'TripEdit',
+      component: TripUpdate,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/trip/:tripId/view',
+      name: 'TripView',
+      component: TripDetails,
+      meta: { authorities: [Authority.USER] }
+    }
+    ,
+    {
+      path: '/location',
+      name: 'Location',
+      component: Location,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/location/new',
+      name: 'LocationCreate',
+      component: LocationUpdate,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/location/:locationId/edit',
+      name: 'LocationEdit',
+      component: LocationUpdate,
+      meta: { authorities: [Authority.USER] }
+    },
+    {
+      path: '/location/:locationId/view',
+      name: 'LocationView',
+      component: LocationDetails,
+      meta: { authorities: [Authority.USER] }
     }
     // jhipster-needle-add-entity-to-router - JHipster will add entities to the router here
   ]

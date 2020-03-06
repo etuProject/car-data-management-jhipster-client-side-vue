@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trip",
+        "createLabel": "Dodaj Trip",
+        "createOrEditLabel": "Dodaj lub edytuj: Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "Utworzono nowy obiekt typu Trip z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Trip z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Trip z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Trip {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

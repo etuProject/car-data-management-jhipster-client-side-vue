@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "建立一筆新的 Trip",
+        "createOrEditLabel": "建立或編輯 Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "新的 Trip 建立成功，識別碼為 {{ param }}",
+      "updated": "識別碼為 {{ param }} 的 Trip 更新成功",
+      "deleted": "識別碼為 {{ param }} 的 Trip 刪除成功",
+      "delete": {
+        "question": "您確定要刪除 Trip {{ id }} 嗎?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Luo Trip",
+        "createOrEditLabel": "Luo tai muokkaa Trip",
+        "notFound": "Trip ei löytynyt"
+      },
+      "created": "Uusi Trip on luotu, id: {{ param }}",
+      "updated": "Trip on päivitetty, id: {{ param }}",
+      "deleted": "Trip on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Trip {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

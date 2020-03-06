@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Pridať Location",
+        "createOrEditLabel": "Pridať alebo upraviť Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Bol vytvorený potomok entity Location s identifikátorom {{ param }}",
+      "updated": "Potomok entity Location s identifikátorom {{ param }} bol upravený.",
+      "deleted": "Potomok entity Location s identifikátorom {{ param }} bol vymazaný.",
+      "delete": {
+        "question": "Ste si istý, že chcete vymazať Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}
