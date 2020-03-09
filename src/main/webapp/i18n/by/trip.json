@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Стварыць новы Trip",
+        "createOrEditLabel": "Стварыць або адрэдагаваць Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "Новы Trip створан з ідэнтыфікатарам {{ param }}",
+      "updated": "Trip абноўлен з ідэнтыфікатарам {{ param }}",
+      "deleted": "Trip выдален з ідэнтыфікатарам {{ param }}",
+      "delete": {
+        "question": "Вы ўпэўнены, што жадаеце выдаліць Trip {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

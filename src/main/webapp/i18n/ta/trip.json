@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Trip-ஐ உருவாக்கு",
+        "createOrEditLabel": "Trip -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Trips found"
+      },
+      "created": "Trip புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Trip மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Trip நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Trip {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

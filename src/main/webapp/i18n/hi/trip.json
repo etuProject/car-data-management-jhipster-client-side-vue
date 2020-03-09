@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "नया Trip बनाएँ",
+        "createOrEditLabel": "Trip बनाएँ या संपादित करें",
+        "notFound": "No Trips found"
+      },
+      "created": "एक नया Trip [identifier: {{ param }}] तैयार है",
+      "updated": "एक Trip [identifier: {{ param }}] का अद्यतन हुआ है",
+      "deleted": "Trip [identifier: {{ param }}] हटा दिया है",
+      "delete": {
+        "question": "Trip [id: {{ id }}] हटाने की पुष्टि करें"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

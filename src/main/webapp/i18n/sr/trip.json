@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Kreiraj novi Trip",
+        "createOrEditLabel": "Kreirajte ili izmenite Trip",
+        "notFound": "No Trips found"
+      },
+      "created": "Kreiran je novi Trip pod nazivom {{ param }}",
+      "updated": "Trip pod nazivom {{ param }} je ažuriran",
+      "deleted": "Trip pod nazivom {{ param }} je obrisan",
+      "delete": {
+        "question": "Da li ste sigurni da želite da obrišete Trip pod nazivom {{ id }}?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

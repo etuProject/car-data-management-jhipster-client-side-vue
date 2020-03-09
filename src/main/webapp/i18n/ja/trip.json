@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Trip を追加",
+        "createOrEditLabel": "Tripを追加または編集",
+        "notFound": "No Trips found"
+      },
+      "created": "A new Trip is created with identifier {{ param }}",
+      "updated": "A Trip is updated with identifier {{ param }}",
+      "deleted": "A Trip is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Trip {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

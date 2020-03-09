@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Янги Location қўшиш",
+        "createOrEditLabel": "Locationни таҳрирлаш",
+        "notFound": "No Locations found"
+      },
+      "created": "Location {{ param }} билан қўшилди.",
+      "updated": "{{ param }}- Location сақланди.",
+      "deleted": "{{ param }}- Location ўчирилди.",
+      "delete": {
+        "question": "{{ id }}- Locationни ўчирмоқчимисиз? "
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Luo Location",
+        "createOrEditLabel": "Luo tai muokkaa Location",
+        "notFound": "Location ei löytynyt"
+      },
+      "created": "Uusi Location on luotu, id: {{ param }}",
+      "updated": "Location on päivitetty, id: {{ param }}",
+      "deleted": "Location on päivitetty, id: {{ param }}",
+      "delete": {
+        "question": "Haluatko varmasti poistaa Location {{ id }}?"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

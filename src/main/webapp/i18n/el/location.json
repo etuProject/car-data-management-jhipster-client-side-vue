@@ -1,0 +1,26 @@
+{
+  "clientApp": {
+    "location": {
+      "home": {
+        "title": "Locations",
+        "createLabel": "Δημιουργήστε ένα νέο Location",
+        "createOrEditLabel": "Δημιουργήστε η επεξεργαστείτε ένα Location",
+        "notFound": "No Locations found"
+      },
+      "created": "Ένα νέο Location έχει δημιουργηθεί με αναγνωριστικό {{ param }}",
+      "updated": "Ένα Location έχει ενημερωθεί με αναγνωριστικό {{ param }}",
+      "deleted": "Ένα Location έχει διαγραφτεί με αναγνωριστικό {{ param }}",
+      "delete": {
+        "question": "Είστε βέβαιοι όταν θέλετε να διαγράψετε το ακόλουθο Location {{ id }};"
+      },
+      "detail": {
+        "title": "Location"
+      },
+      "heading": "Heading",
+      "latitude": "Latitude",
+      "longitude": "Longitude",
+      "speed": "Speed",
+      "trip": "Trip"
+    }
+  }
+}

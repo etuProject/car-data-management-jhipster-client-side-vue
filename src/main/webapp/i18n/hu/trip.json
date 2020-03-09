@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Egy új Trip létrehozása",
+        "createOrEditLabel": "Hozzon létre, vagy módosítson Tript",
+        "notFound": "No Trips found"
+      },
+      "created": "Egy új Trip lett létrehozva {{ param }} azonosítóval",
+      "updated": "A Trip módosítva lett {{ param }} azonosítóval",
+      "deleted": "A Trip törölve lett {{ param }} azonosítóval",
+      "delete": {
+        "question": "Biztos benne, hogy törölni szeretné az Tript {{ id }} azonosítóval?"
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}

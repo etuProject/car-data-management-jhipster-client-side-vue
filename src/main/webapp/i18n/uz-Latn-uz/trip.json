@@ -1,0 +1,24 @@
+{
+  "clientApp": {
+    "trip": {
+      "home": {
+        "title": "Trips",
+        "createLabel": "Yangi Trip qo`shish",
+        "createOrEditLabel": "Tripni tahrirlash",
+        "notFound": "No Trips found"
+      },
+      "created": "Trip {{ param }} bilan qo`shildi",
+      "updated": "{{ param }}- Trip saqlandi",
+      "deleted": "{{ param }}- Trip o`chirildi",
+      "delete": {
+        "question": "{{ id }}- Tripni o`chirmoqchimisiz? "
+      },
+      "detail": {
+        "title": "Trip"
+      },
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "location": "Location"
+    }
+  }
+}
